@@ -1,7 +1,7 @@
 var count = 0;
 
-function cc(card) {
-  // Only change code below this line
+function drawCard(card) {
+ 
 switch (card){
     case 2:
     case 3: 
@@ -23,7 +23,7 @@ switch (card){
      return count + " Bet";
      } else{
      return count + " Hold";}
-// Only change code above this line
+
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
