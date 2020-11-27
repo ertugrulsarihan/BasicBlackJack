@@ -27,4 +27,4 @@ switch (card){
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
-console.log(cc("K"))
+console.log(drawCard("K"))
